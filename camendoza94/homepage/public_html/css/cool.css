@@ -1,30 +1,32 @@
 
 #git {    
     float: right;
-}    
-#photo_gm{
-    size: 
+}
+#connect{
+    background-color: #84777f
 }
 dl {
-    border: 3px double #ccc;
+    border: 3px solid;
     padding: 0.5em;
 }
 dt {
     float: left;
-    clear: left;
-    width: 150px;
+    width: 300px;
     text-align: right;
-    font-weight: bold;
-    color: green;
+    color: black;
 }
 dt::after {
     content: ":";
 }
 dd {
-    margin: 0 0 0 110px;
-    padding: 0 0 0.5em 0;
+    margin: 0 20px 0 110px;
+    text-align: center;
 }
 
 ul {
     list-style-type: square;
+}
+
+dt a{
+    text-decoration: underline;
 }
