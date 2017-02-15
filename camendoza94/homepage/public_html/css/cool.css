@@ -1,10 +1,3 @@
-
-#git {    
-    float: right;
-}
-#connect{
-    background-color: #84777f
-}
 dl {
     border: 3px solid;
     padding: 0.5em;
@@ -27,6 +20,10 @@ ul {
     list-style-type: square;
 }
 
-dt a{
+dt a {
     text-decoration: underline;
+}
+
+#connect {
+    background-color: #84777f;
 }
