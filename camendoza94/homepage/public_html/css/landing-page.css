@@ -35,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(https://scontent.feoh3-1.fna.fbcdn.net/v/t1.0-9/13173973_1179892982044062_1335955918196690954_n.jpg?oh=e058a8e8b10ac73cd4a0110730437028&oe=5943DF9F) no-repeat center;
+    background: url(../img/cover.jpg) no-repeat center;
 }
 
 .intro-message {
@@ -167,9 +167,3 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
-
-#git {    
-    padding: 0px 0;
-    float: right;
-}    
-    

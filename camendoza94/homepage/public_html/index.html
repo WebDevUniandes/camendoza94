@@ -18,7 +18,8 @@
         <!-- Custom CSS -->
         <link href="css/font-awesome.css" rel="stylesheet">
         <!-- Custom CSS -->
-        <link href="css/landing-page.css" rel="stylesheet">
+        <link href="css/landing-page.css" rel="stylesheet">        
+        <link href="css/cool.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
@@ -54,6 +55,10 @@
                         </li>
                         <li>
                             <a href="#experience">Experience</a>
+                        </li>
+
+                        <li>
+                            <a href="#projects">Projects</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
@@ -109,10 +114,15 @@
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
                         <h2 class="section-heading">About me</h2>
-                        <p class="lead">I'm 22. From Cartagena, Colombia. A Mechanical engineer and Systems engineering student </p>
+                        <p class="lead">I'm 22. From Cartagena, Colombia. A Mechanical engineer and Systems engineering student.
+                            <br>
+                            I love coding and learning new things everyday.
+                            <br>
+                            Conac me if ou're looking for a alwas learning developer.
+                        </p>
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/ipad.png" alt="">
+                        <img class="img-responsive" src="img/about.jpg" alt="Camilo's photo">
                     </div>
                 </div>
 
@@ -130,11 +140,36 @@
                     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">Experience</h2>
-                        <p class="lead"></p>
+                        <h2 class="section-heading">Experience</h2>                        
+                        <div class="lead">
+                            <ol>
+                                <li>Monitor at Universidad de los Andes (OOP I/II, Discrete mathematics, Software architecture) <em>[2013- Present]</em>
+                                    <ul>
+                                        <li>Give review classes.</li>
+                                        <li>Attend practices and laboratory tests, resolving doubts and ensuring the order of the class.</li>
+                                        <li>Review and mark the exercises and course exams</li>
+                                    </ul>
+                                </li>
+                                <li>Videogame developer at BAIUS Games <em>[Sep 2015 - Present]</em>
+                                    <ul>
+                                        <li>Videogame design and developing.</li>
+                                        <li>Teamwork and Github repositories managing.</li>
+                                    </ul>
+                                </li>
+
+                                <li>Supply chain trainee at GM Colmotores <em>[Jun 2015 - Dec 2015]</em>
+                                    <ul>
+                                        <li>Implementation of a simple but effective database to optimize time, automatize reports, check daily progress and verify coverage of imported goods, with the Material Flow area.
+                                        </li>
+                                        <li>Implementation of a project to manage Work Orders and the different checks to meet breaking points, with the Readiness area.</li>
+                                        <li>Team work with scheduling, planned tasks and reporting.</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img class="img-responsive" src="img/dog.png" alt="">
+                        <img class="img-responsive" id='photo_gm' src="img/gm.jpg" alt="Camilo at GM">
                     </div>
                 </div>
 
@@ -143,7 +178,7 @@
 
         </div>
         <!-- /.content-section-b -->
-
+        <a  name="projects"></a>
         <div class="content-section-a">
 
             <div class="container">
@@ -152,14 +187,13 @@
                     <div class="col-lg-5 col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">Github projects</h2>
-                        <p class="lead">LIS</p> 
+                        <h2 class="section-heading">Github projects</h2>                        
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/git.png" alt="github logo">                                                
-                        <div id='git'></div>
+                        <img class="img-responsive" src="img/git.png" alt="github logo">              
                     </div>
-                </div>
+                </div>                                                  
+                <div id='git'></div>
 
             </div>
             <!-- /.container -->
@@ -176,10 +210,10 @@
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
                         <h2 class="section-heading">Hobbies</h2>
-                        <p class="lead"></p>
+                        <p class="lead">Videogames have always been my passion since I was 5 and got my PS1.<br> Tennis is amazing.<br>I live for music.</p>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img class="img-responsive" src="img/dog.png" alt="">
+                        <img class="img-responsive" src="img/novalima.jpg" alt="Novalima at Universidad de los Andes">
                     </div>
                 </div>
 
@@ -234,13 +268,17 @@
                             <li class="footer-menu-divider">&sdot;</li>
                             <li>
                                 <a href="#experience">Experience</a>
+                            </li> 
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#projects">Projects</a>
                             </li>
                             <li class="footer-menu-divider">&sdot;</li>
                             <li>
                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                        <p class="copyright text-muted small">Copyright &copy; 2013-2016 Blackrock Digital LLC.</p>
                     </div>
                 </div>
             </div>
@@ -252,11 +290,11 @@
         <!-- <script src="js/bootstrap.min.js"></script> -->
 
         <script src="./js/git.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            $(function () {
-                $("#git").loadRepositories("camendoza94");
-            })(jQuery);
-        </script>
+        <!--        <script type="text/javascript">
+                    $(function () {
+                        $("#git").loadRepositories("camendoza94");
+                    })(jQuery);
+                </script>-->
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
